@@ -1,0 +1,121 @@
+a{
+    text-decoration: none;
+    color: #f5f6f7;
+}
+body{
+    display:flex;
+    margin:0;
+}
+#container{
+    width:1200px;
+    height: 800px;
+    background-color: #f5f6f7;
+
+}
+.navbar{
+    display:flex;
+    width:100%;
+    height:120px;
+    flex-wrap:nowrap;
+    /* flex-flow: nowrap;*/
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006c49;
+    
+}
+.navbar li{
+    
+    list-style-type: none;
+   
+}
+/* .menu_item{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 150px;
+    height : 50px;
+    background-color: aquamarine;
+} */
+
+.menu_box{
+    display:flex;
+    background-color: #006c49;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+/* 메인섹션 ---------------*/
+.main_section{
+    display:flex;
+    width:100%;
+    height:800px;
+    flex-wrap:nowrap;
+    /* flex-flow: nowrap;*/
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.article_box{
+    display:flex;
+    background-color: #006c49;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    /* position:relative; */
+    /* border-bottom: 6px dotted black; */
+    content: 6px dotted black;
+}
+.article_box li{
+    list-style-type: none;
+}
+.article_text{
+    box-sizing: content-box;
+    padding: 3px 11px 3px 11px;
+    background-color: #006c49;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 
+ .dotted::after{
+    display: flex;
+    justify-content:center;
+    position:relative;
+    border-top: 2px dotted red;
+    content:""; 
+    z-index: ; 
+    } 
+*/
+.dotted{
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #b83b3b;
+    display:inline-block;
+    margin:0 10px;
+}
+
+h2:after {
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #b83b3b;
+    content:"\A";
+   }
+   
+   h2:after {
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #b83b3b;
+   }
