@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스 박스 연습</title>
+    <link rel="stylesheet" href="css/11.css">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <div class ="menu_box">
+                <a href="#" class="menu_item"><li>종류별 커피를 찾아보세요</li></a>
+            </div>
+            <div class ="menu_box"> 
+                <a href="https://www.starbucksathome.com/kr/about-starbucks/" class="menu_item"><li>회사소개</li></a>
+            </div>
+            <div class ="menu_box"> 
+                <a href="https://www.starbucksathome.com/kr/contact_us/" class="menu_item"><li>문의하기</li></a>
+            </div>
+            <div class ="menu_box"> 
+                <a href="https://www.starbucksathome.com/kr/ice-wholebean/" class="menu_item"><li>최상의 아이스커피를 즐기는 법</li></a>
+            </div>
+            <div class ="menu_box"> 
+                <a href="https://www.dolce-gusto.co.kr/event-genios/" class="menu_item"><li>머신 알아보기</li></a>
+            </div>  
+        </div>
+        <div class="main_section">
+            <div class="article_box">
+                <div>
+                <li class="article_text">이름</li>
+                </div>
+                <li class="dotted"></li>
+                <div>
+                <li class="article_text">김순조</li>
+                </div>
+            </div>
+            <br>
+            <h2>하하</h2>
+            <h2>하하</h2>
+        </div>
+    </div>
+</body>
+</html>
